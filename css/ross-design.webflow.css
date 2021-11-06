@@ -89,7 +89,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  font-family: 'Proxima nova', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   color: #1d1d1f;
   font-size: 14px;
   line-height: 21px;
@@ -196,7 +196,7 @@
 .p--like-headline--hero {
   max-width: 880px;
   margin-bottom: 0px;
-  font-family: 'Proxima nova', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   color: #1d1d1f;
   font-size: 40px;
   line-height: 48px;
@@ -358,7 +358,7 @@
 }
 
 .body {
-  font-family: 'Proxima nova', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   color: #1d1d1f;
 }
 
@@ -3340,29 +3340,29 @@
 }
 
 @font-face {
-  font-family: 'Proxima nova';
-  src: url('../fonts/Proxima-Nova-Bold.otf') format('opentype');
+  font-family: 'Work Sans', sans-serif;
+  src: url('../fonts/WorkSans-Bold.ttf') format('opentype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Proxima nova';
-  src: url('../fonts/Proxima-Nova-Semibold.otf') format('opentype');
+  font-family: 'Work Sans', sans-serif;
+  src: url('../fonts/WorkSans-SemiBold.ttf') format('opentype');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Proxima nova';
-  src: url('../fonts/Proxima-Nova-Regular.otf') format('opentype');
+  font-family: 'Work Sans', sans-serif;
+  src: url('../fonts/WorkSans-Regular.ttf') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Proxima nova';
-  src: url('../fonts/Proxima-Nova-Extrabold.otf') format('opentype');
+  font-family: 'Work Sans', sans-serif;
+  src: url('../fonts/WorkSans-ExtraBold.ttf') format('opentype');
   font-weight: 800;
   font-style: normal;
   font-display: swap;
