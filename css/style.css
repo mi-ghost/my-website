@@ -2148,14 +2148,10 @@
     .link-nav-mobile {
         margin-bottom: 5px;
         color: #000;
-        font-size: 28px;
+        font-size: 20px;
         line-height: 36px;
-        font-weight: 700;
         text-align: right;
         text-decoration: none;
-    }
-    .link-nav-mobile.last {
-        margin-bottom: 0px;
     }
     .about-me-wrapper {
         display: -webkit-box;
