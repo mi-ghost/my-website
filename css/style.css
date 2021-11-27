@@ -140,15 +140,6 @@
     height: 100%;
 }
 
-.hero-wrapper {
-    margin-top: 211px;
-    width: 80vw;
-    height: 100vh;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: transparent;
-}
-
 .hero {
     display: block;
     width: 100vw;
@@ -1646,6 +1637,15 @@
     }
 }
 
+.hero-wrapper {
+    margin-top: 211px;
+    width: 80vw;
+    height: 100vh;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: transparent;
+}
+
 @media screen and (max-width: 479px) {
     .nav {
         display: none;
@@ -1661,6 +1661,11 @@
     .hero-container {
         max-width: none;
         padding: 50px 20px;
+    }
+    .hero-wrapper-mobile {
+        padding-top: 93px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
     .h2 {
         display: none;
