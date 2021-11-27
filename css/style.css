@@ -10,6 +10,21 @@
     grid-column-gap: 16px;
 }
 
+@font-face {
+    font-family: "Bold";
+    src: url(/fonts/CircularStd-Bold.otf);
+}
+
+@font-face {
+    font-family: "Book";
+    src: url(/fonts/CircularStd-Book.otf);
+}
+
+@font-face {
+    font-family: "Medium";
+    src: url(/fonts/CircularStd-Medium.otf);
+}
+
 .nav {
     position: fixed;
     left: 0%;
@@ -22,6 +37,7 @@
 }
 
 .nav-container {
+    font-family: "Book";
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -89,8 +105,7 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    font-family: 'Work Sans', sans-serif;
-    color: #1d1d1f;
+    color: #000;
     font-size: 14px;
     line-height: 21px;
     font-weight: 600;
@@ -118,6 +133,15 @@
 
 .nav-right-part {
     height: 100%;
+}
+
+.hero-wrapper {
+    margin-top: 211px;
+    width: 80vw;
+    height: 100vh;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: transparent;
 }
 
 .hero {
@@ -171,15 +195,11 @@
 }
 
 .hero-container {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
     max-width: 1080px;
     margin-right: auto;
     margin-left: auto;
-    padding: 100px 25px;
+    margin-top: auto;
+    margin-bottom: auto;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -191,19 +211,44 @@
     justify-content: flex-start;
 }
 
-.p--like-headline--hero {
-    max-width: 880px;
-    margin-bottom: 0px;
-    font-family: 'Work Sans', sans-serif;
-    color: #1d1d1f;
-    font-size: 30px;
-    line-height: 48px;
-    font-weight: 700;
-    letter-spacing: -0.2px;
-}
-
 .p--like-headline--hero.margin {
     margin-bottom: 20px;
+}
+
+.h1-hero {
+    max-width: 750px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    color: #000;
+    font-size: 59px;
+    line-height: 63px;
+}
+
+.img-hand {
+    max-width: 50px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.a-links {
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    font-family: 'Book';
+    color: #000;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.p-hero {
+    max-width: 696px;
+    margin-bottom: 68px;
+    padding-top: 41px;
+    font-size: 22px;
+    font-family: "Book";
+    line-height: 34px;
 }
 
 .grid {
@@ -356,8 +401,13 @@
 }
 
 .body {
-    font-family: 'Work Sans', sans-serif;
-    color: #1d1d1f;
+    margin: 0;
+    font-family: "Medium";
+    color: #000;
+    line-height: 20px;
+    min-height: 100%;
+    background-color: #fff;
+    font-size: 14px;
 }
 
 .p {
@@ -560,6 +610,7 @@
 }
 
 .p--like-headline-19-27-bold {
+    font-family: "Book";
     margin-bottom: 0px;
     font-size: 19px;
     line-height: 27px;
@@ -607,6 +658,8 @@
 }
 
 .headline--project-name {
+    color: #000;
+    font-family: "Bold";
     margin-bottom: 5px;
     font-size: 32px;
     line-height: 40px;
@@ -618,11 +671,11 @@
 }
 
 .p--project-prev {
+    font-family: "Medium";
     margin-bottom: 0px;
-    color: #86868b;
+    color: #000;
     font-size: 14px;
     line-height: 25px;
-    font-weight: 600;
 }
 
 .p--project-prev.center {
@@ -644,7 +697,7 @@
     padding-right: 25px;
     padding-bottom: 30px;
     padding-left: 25px;
-    color: #1d1d1f;
+    color: #000;
     text-decoration: none;
 }
 
@@ -669,10 +722,9 @@
 .p--button-with-arrow {
     margin-right: 10px;
     margin-bottom: 0px;
-    color: #1d1d1f;
+    color: #000;
     font-size: 19px;
     line-height: 27px;
-    font-weight: 600;
     text-transform: lowercase;
 }
 
@@ -939,7 +991,7 @@
 
 .p--like-headline--32-40-bold.grey {
     margin-bottom: 30px;
-    color: #86868b;
+    color: 000;
 }
 
 .p--ghost-button--14-20-uppercase {
@@ -1006,7 +1058,7 @@
 }
 
 .p-13-20-semibold {
-    color: #86868b;
+    color: 000;
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 1px;
@@ -1036,7 +1088,7 @@
 
 .links-messengers {
     margin-bottom: 5px;
-    color: #1d1d1f;
+    color: #000;
     font-size: 28px;
     line-height: 36px;
     font-weight: 700;
@@ -1370,7 +1422,7 @@
 }
 
 .p--21-25-semibold {
-    color: #86868b;
+    color: 000;
     font-size: 21px;
     line-height: 25px;
     font-weight: 600;
@@ -1490,7 +1542,7 @@
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
     flex: 0 auto;
-    color: #1d1d1f;
+    color: #000;
     text-decoration: none;
 }
 
@@ -1604,6 +1656,10 @@
     .hero {
         margin-top: 60px;
         padding: 0px;
+    }
+    .h1-hero {
+        font-size: 39px;
+        line-height: 44px;
     }
     .hero-container {
         max-width: none;
@@ -1954,9 +2010,10 @@
         display: block;
     }
     .mobile-p-like-headline--hero {
+        font-family: "Bold";
         display: block;
         margin-bottom: 0px;
-        color: #1d1d1f;
+        color: #000;
         font-size: 26px;
         line-height: 34px;
         font-weight: 700;
@@ -2102,7 +2159,7 @@
     }
     .link-nav-mobile {
         margin-bottom: 5px;
-        color: #1d1d1f;
+        color: #000;
         font-size: 28px;
         line-height: 36px;
         font-weight: 700;
@@ -3141,36 +3198,4 @@
         -ms-grid-column-span: 1;
         grid-column-end: span 1;
     }
-}
-
-@font-face {
-    font-family: 'Work Sans', sans-serif;
-    src: url('../fonts/WorkSans-Bold.ttf') format('opentype');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Work Sans', sans-serif;
-    src: url('../fonts/WorkSans-SemiBold.ttf') format('opentype');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Work Sans', sans-serif;
-    src: url('../fonts/WorkSans-Regular.ttf') format('opentype');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Work Sans', sans-serif;
-    src: url('../fonts/WorkSans-ExtraBold.ttf') format('opentype');
-    font-weight: 800;
-    font-style: normal;
-    font-display: swap;
 }
